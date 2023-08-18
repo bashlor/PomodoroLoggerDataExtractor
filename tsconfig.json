@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "noUnusedLocals": true,
+      "baseUrl": ".",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "preserve",
+      "lib": ["ESNext"],
+      "target": "esnext",
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "outDir": "build",
+      "strictNullChecks": true
+    },
+    "exclude": ["node_modules", "build","**/*/*.test.ts"],
+    "include": ["src"]
+  }
+  
